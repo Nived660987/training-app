@@ -4,7 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Container from '@material-ui/core/Container';
 import Typography from '../components/Typography';
-
+import { BrowserRouter as Router, Link as RouterLink, Switch, Route } from "react-router-dom";
 const styles = (theme) => ({
   root: {
     marginTop: theme.spacing(8),
@@ -90,28 +90,52 @@ function ProductCategories(props) {
     
     {
       url:
-        'https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=400&q=80',
-      title: 'Shopping',
-      width: '40%',
+        'https://i.pinimg.com/564x/73/16/32/731632e44bdf21489d4d7632e59a8894.jpg',
+      title: 'GYM',
+      width: '33%',
+      
+    },
+    
+    
+    {
+      url:
+        'https://www.safwallpapers.com/files/1524485537_Yoga-Girls-Wallpapers-For-Laptop.jpg',
+      title: 'Yoga',
+      width: '33%',
     },
     {
       url:
-        'yoga.jpg',
-      title: 'Yoga',
-      width: '40%',
+        'https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_limit,w_695/v1537210711/dkwlqnj2sgxmdpy2mv6z.png',
+      title: 'Beauty Sleep ',
+      width: '33%',
     },
     {
       url:
         'https://images.unsplash.com/photo-1533727937480-da3a97967e95?auto=format&fit=crop&w=400&q=80',
       title: 'Fitness',
-      width: '40%',
+      width: '33%',
     },
     {
       url:
-        './images/meditation.jpg',
+        'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/afro-american-couple-doing-yoga-royalty-free-image-598708752-1548713240.jpg?crop=1.00xw:0.751xh;0,0.153xh&resize=980:*',
       title: 'Meditation',
-      width: '40%',
+      width: '33%',
     },
+    {
+      url:
+        'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/salad-mix-plate-shot-from-above-on-rustic-wooden-royalty-free-image-1018199524-1556130377.jpg',
+      title: 'Diet',
+      width: '33%',
+    },
+
+    {
+      url:'https://mediad.publicbroadcasting.net/p/wsiu/files/styles/large/public/202004/CoronaVirusHeader-Final-3.jpg',
+      title: 'COVID-19',
+      height: '80%', 
+      width: '99%',
+    },
+    
+    
   ];
 
   return (

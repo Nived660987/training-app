@@ -4,6 +4,8 @@ import Button from '../components/Button';
 import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
 import React from 'react';
+import {Link as RouterLink,Route,Switch} from "react-router-dom";
+
 
 const backgroundImage = 'https://wallpaperaccess.com/full/139118.jpg'
 
@@ -49,7 +51,7 @@ function ProductHero(props) {
         size="large"
         className={classes.button}
         component="a"
-        href="/premium-themes/onepirate/sign-up/"
+        href="../Register.js"
       >
         Register
       </Button>
