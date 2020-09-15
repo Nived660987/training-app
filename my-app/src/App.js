@@ -18,6 +18,7 @@ import Login from "./authentication/auth/Login";
 import Register from "./authentication/auth/Register";
 import UserContext from './context/UserContext';
 import Header from './authentication/layout/Header';
+import Covid from "./Covid";
 
 
 function App() {
@@ -59,7 +60,7 @@ function App() {
     <div className="App">
    <Header/>
     <Switch> 
-    <Route path="/Home" component={Home}  />
+    <Route path="/Covid" component={Covid}  />
     <Route path="/Login" component={Login}  />
     <Route path="/Register" component={Register}  />
      

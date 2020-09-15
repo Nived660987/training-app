@@ -1,0 +1,14 @@
+.AddWorkout_exercise{
+    padding-top: px;
+    width: 345px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid lightgray;
+    background: #717275;
+    display: inline-block;
+    text-align: left;
+    
+
+}
