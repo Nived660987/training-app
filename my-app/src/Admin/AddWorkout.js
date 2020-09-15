@@ -3,7 +3,10 @@ import Axios from "axios";
 import IconButton from "@material-ui/core/IconButton";
 import AddIcon from "@material-ui/icons/Add";
 import RemoveIcon from "@material-ui/icons/Remove";
+<<<<<<< HEAD
 import Workout from "./Workout.css";
+=======
+>>>>>>> 1053831173bf1c941143b07c5f46f1dfec07c6dc
 
  
 export default function AddWorkout()
@@ -45,7 +48,11 @@ export default function AddWorkout()
 };
   
     return(
+<<<<<<< HEAD
         <div className="AddWorkout_exercise">
+=======
+        <div>
+>>>>>>> 1053831173bf1c941143b07c5f46f1dfec07c6dc
             <form className="form" onSubmit={submit}>
                 <label>Title</label>
                 <input type="text" name="title"
@@ -76,7 +83,11 @@ export default function AddWorkout()
                 
                   ))}
                    <div>
+<<<<<<< HEAD
                      
+=======
+                     <label>Submit</label>
+>>>>>>> 1053831173bf1c941143b07c5f46f1dfec07c6dc
                 <input type="submit" value="Submit" />
                  </div>
             </form>
@@ -84,5 +95,9 @@ export default function AddWorkout()
        
     )
     };
+<<<<<<< HEAD
 
     
+=======
+    
+>>>>>>> 1053831173bf1c941143b07c5f46f1dfec07c6dc

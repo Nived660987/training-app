@@ -9,8 +9,12 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.20.0",
+<<<<<<< HEAD
     "chart.js": "^2.9.3",
     "leaflet": "^1.7.1",
+=======
+    "material-icons": "^0.3.1",
+>>>>>>> 1053831173bf1c941143b07c5f46f1dfec07c6dc
     "mongoose": "^5.10.0",
     "nodemon": "^2.0.4",
     "numeral": "^2.0.6",

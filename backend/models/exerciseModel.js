@@ -15,6 +15,7 @@ const exerciseSchema=new Schema({
     
 
 });
+<<<<<<< HEAD
 module.exports=mongoose.model("Exercise" ,exerciseSchema);
 
 
@@ -22,3 +23,6 @@ module.exports=mongoose.model("Exercise" ,exerciseSchema);
 /////////////////////////////////////////////////////////
 INDEX.js
 Copy app.use("/api/exercises",exerciseRoutes);
+=======
+module.exports=mongoose.model("Exercise" ,exerciseSchema);
+>>>>>>> 1053831173bf1c941143b07c5f46f1dfec07c6dc
